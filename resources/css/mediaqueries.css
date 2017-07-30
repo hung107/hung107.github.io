@@ -1,0 +1,309 @@
+/*MIN-WIDTH AT 480px*/
+@media (min-width: 480px) {
+  .container {
+    width: 470px;
+  }
+
+  /*adjust width of the map*/
+  #phongnam-map {
+    width: 80%;
+  }
+
+  .modal-content {
+    width: 65%
+  }
+
+} /*finish media min 480px*/
+
+
+
+
+/*MIN-WIDTH AT 768px*/
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+  /*NAVIGATION*/
+  .js-navigation {
+    background: transparent;
+    border-bottom: 0px solid transparent;
+  }
+
+  .header-nav {
+    background: none;
+    padding-bottom: 0px;
+    border: none;
+  }
+
+
+  .header-nav {
+    display: block !important; 
+  }
+
+  .header-nav ul {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .header-nav ul li {
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .header-nav ul li a {
+    font-size: 125%;
+    color: #fff;
+  }
+
+  .hamburger,
+  .close {
+    display: none;
+  }
+
+  /*LOGO*/
+  .logo-text {
+    margin-top: 15px;
+  }
+
+  .logo-text a p:first-child {
+    font-size: 75%;
+    color: #fff;
+  }
+
+  .logo-text a p:last-child {
+    font-size: 110%;
+    color: #fff;
+  }
+
+  /*LANGUAGE*/
+  .vi {
+    font-size: 90%;
+    right: 5%;
+    color: #fff;
+  }
+
+  .en {
+    font-size: 90%;
+    right: 5.5%;
+    color: #fff;
+  }
+
+  /*HERO*/
+  .hero h1 {
+    font-size: 220%;
+    letter-spacing: 0.5px;
+    line-height: 135%;
+    margin-bottom: 30px;
+  }
+
+  .p-button-wrap a {
+    padding: 15px 25px;
+    font-size: 125%;
+  }
+
+  .p-button-wrap a:first-child {
+    margin-right: 10px;
+  }
+
+  .modal-content {
+    width: 65%
+  }
+
+  /*SECTION HOTLINE*/
+  h2 {
+    font-size: 220%;
+  }
+
+  .hotline-number p,
+  .hotline-email p {
+    font-size: 135%;
+    margin: 8px 0;
+  }
+
+  .hotline-number p:nth-child(1) {
+    font-size: 135%;
+  }
+
+  .hotline-email p:nth-child(1) {
+    font-size: 135%;
+  }
+
+  .hotline-email a {
+    font-size: 110%;
+  }
+
+  .hotline-icon {
+    font-size: 110%;
+  }
+
+
+  /*SECTION INTRO*/
+  .section-intro i {
+    font-size: 400%;
+  }
+
+  .section-intro p {
+    font-size: 125%;
+  }
+
+  .section-intro p span {
+    font-size: 150%;
+  }
+
+  h3 {
+    font-size: 150%;
+  }
+
+
+  /*SECTION PRODUCTS*/
+  .section-products img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .product-detail i {
+    font-size: 150%;
+    width: 5%;
+  }
+
+  .section-products p {
+    font-size: 125%;
+  }
+
+  .section-products .col-sm-6 {
+    margin-left: 0;
+    margin-top: 70px;
+  }
+
+  .section-products .col:first-child {
+      margin-top: 70px;
+  }
+
+  /*SECTION FORM*/
+  .section-form p {
+    font-size: 125%;
+  }
+
+  .section-form .row > div:nth-child(1),
+  .section-form .row > div:nth-child(3),
+  .section-form .row > div:nth-child(5) {
+    margin-top: 35px;
+  }
+
+  h4 {
+    font-size: 150%;
+  }
+
+  /*GOOGLE MAP*/
+  .goolemap-wrap {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  #phongnam-map {
+    height: 300px;
+    width: 100%;
+  }
+
+  .google-map h4 {
+    margin-bottom: 20px;
+    font-size: 135%;
+  }
+
+  /*SECTION FOOTER*/
+  .footer-wrap p {
+    line-height: 135%;
+  }
+
+  /*** MODAL ***/
+  .modal-content {
+    width: 70%;
+  }
+
+
+} /*finish media min 768px*/
+
+
+
+
+/*MIN-WIDTH AT 992px*/
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+
+  /*NAVIGATION*/
+  .header-nav ul {
+    margin-left: 15%;
+  }
+
+  .header-nav ul li a {
+    font-size: 150%;
+  }
+
+  /*LOGO*/
+  .logo-text a p:first-child {
+    font-size: 100%;
+  }
+
+  .logo-text a p:last-child {
+    font-size: 135%;
+  }
+
+  /*LANGUAGE*/
+  .vi {
+    font-size: 110%;
+  }
+
+  .en {
+    font-size: 110%;
+  }
+
+  /*HERO*/
+  .hero h1 {
+    font-size: 250%;
+  }
+
+  /*SECTION INTRO*/
+  h3 {
+    font-size: 180%;
+    width: 80%;
+    margin: 40px auto;
+  }
+
+  /*GOOGLE MAP*/
+  .goolemap-wrap {
+    width: 45%;
+  }
+
+  #phongnam-map {
+    height: 300px;
+    width: 100%;
+  }
+
+  /*FOR JAVACSRIPT*/
+  .js-navi-scroll {
+    height: 90px;
+  }  
+
+  /*** MODAL ***/
+  .modal-content {
+    width: 50%;
+  }
+
+  
+} /*finish media min 992px*/
+
+
+
+
+/*MIN-WIDTH AT 1200px*/
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+
+
+} /*finish media min 1200px*/
