@@ -1,0 +1,11 @@
+Hover & border bottom
+f2bc8d (75%)
+eda25f (65%)
+e99041 (58%)
+e67e22 (Origin - 52%)
+cf6d17 (45%)
+a15512 (35%)
+
+#fff = text color
+rgba(0, 0, 0, 0.8) = text color
+rgba(255, 255, 255, 0.95) = Background
