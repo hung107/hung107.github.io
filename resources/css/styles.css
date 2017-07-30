@@ -12,7 +12,7 @@
 }
 
 body {
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;;
 	font-size: 16px;
 	font-weight: 300;
 	margin: 0;
@@ -55,7 +55,7 @@ header {
 
 /*** LOGO ***/
 .logo-text {
-	margin-top: 10px;
+	margin-top: 5px;
 	z-index: 100;
 }
 
@@ -68,33 +68,35 @@ header {
 	color: rgba(0, 0, 0, 0.8);
 }
 
-.logo-text a p:last-child:hover {
-	color: #f2bc8d;
+.logo-text a p:hover {
+	color: #3498db;
 }
 
 .logo-text a p:first-child {
 	text-transform: uppercase;
 	font-size: 63%;
 	letter-spacing: 0.5px;
+	font-weight: 700;
 }
 
 .logo-text a p:last-child {
-	font-family: 'Lemonada', cursive;
+	font-family: 'comfortaa', cursive;
 	font-size: 90%;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	line-height: 120%;
+	margin-top: 5px;
 }
 
 /*** NAVIGATION ***/
 .js-navigation {
 	background: rgba(255, 255, 255, 0.95);
-	height: 80px;
+	height: 70px;
 	position: fixed;
     width: 100%;
     z-index: 10;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 2px solid #d3e9f7; /*90%*/
 
 }
 
@@ -102,7 +104,7 @@ header {
 	z-index: 100;
 	display: none; 
 	background: rgba(255, 255, 255, 0.95);
-	border: 2px solid lightgrey;
+	border: 2px solid #d3e9f7; /*90%*/
 }
 
 .header-nav ul {
@@ -128,20 +130,20 @@ header {
 }
 
 .header-nav ul li a:hover {
-	border-bottom: 3px solid #e67e22; /*Origin - 52%*/
+	border-bottom: 3px solid #51a7e0; /* 60% */
 }
 
 /*** HAMBURGER & CLOSE ***/
 .header-nav-wrap {
 	position: relative;
-	margin-top: 25px;
+	margin-top: 10px;
 }
 
 .hamburger,
 .close {
 	display: block;
 	background: rgba(255, 255, 255, 0.95);
-	padding: 5px;
+	padding: 3px;
 	font-size: 220%;
 	font-weight: 300;
 	color: rgba(0, 0, 0, 0.8);
@@ -153,7 +155,8 @@ header {
 
 .hamburger:hover,
 .close:hover {
-	color: #3498db;
+	color: #3498db; /*53% - Origin*/
+	background: #f0f7fc; /*96%*/
 }
 
 .hamburger {
@@ -165,37 +168,6 @@ header {
 	z-index: 0;
 }
 
-/*** LANG ***/
-.navigation {
-	position: relative;
-}
-
-.en,
-.vi {
-	margin-top: 5px;
-	font-family: "Lemonada", cursive;
-	font-size: 90%;
-	text-decoration: none;
-	color: rgba(0, 0, 0, 0.8);
-	font-weight: 400;
-	position: absolute;
-	right: 8%;
-	padding: 0 5px;
-}
-
-.en:hover,
-.vi:hover {
-	color: #eda25f;
-}
-
-.en {
-	margin-right: 30px;
-}
-
-.lang-active {
-	background: rgba(0, 0, 0, 0.3);
-	border-bottom: 2px solid #f2bc8d; /*75%*/
-}
 
 /*** HERO ***/
 .hero-xxx {
@@ -236,45 +208,18 @@ header {
 	font-size: 110%;
 }
 
-.p-button-wrap a:first-child {
+.p-button-wrap a {
+	font-weight: 300;
+	text-transform: uppercase;
 	color: #fff;
-	background: #e67e22;
-	border: 3px solid #e67e22;
+	background: #3498db;
+	border: 3px solid #3498db;
 }
 
-.p-button-wrap a:first-child:hover {
+.p-button-wrap a:hover {
 	color: #e67e22;
 	background: transparent;
 }
-
-.p-button-wrap a:last-child {
-	color: #e67e22;
-}
-
-.p-button-wrap a:last-child:hover {
-	color: #fff;
-	background: #e67e22;
-}
-
-/*** INTRO VIDEO ***/
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 0px;
-    height: 0;
-    margin: 2px;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.8);
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 
 
 /***************************************
@@ -293,8 +238,8 @@ h2 {
 }
 
 .blank-div {
-	border-bottom: 3px solid #eda25f;
-	width: 40%;
+	border-bottom: 3px solid #3498db;
+	width: 45%;
 	margin: 0 auto;
 	margin-bottom: 30px;
 }
@@ -332,12 +277,13 @@ h2 {
 	color: rgba(0, 0, 0, 0.8);
 }
 
+.hotline-number p a:hover,
 .hotline-email a:hover {
-	color: #e67e22;
+	color: #7cbde8; /*70%*/
 }
 
 .hotline-icon {
-	color: #e67e22;
+	color: #3498db;
 	font-size: 110%;
 	margin-right: 5px;
 }
@@ -352,8 +298,8 @@ h2 {
 }
 
 .section-intro i {
-	font-size: 300%;
-	color: #e67e22;
+	font-size: 250%;
+	color: #3498db;
 	margin: 10px 0;
 }
 
@@ -378,7 +324,8 @@ h3 {
 	text-transform: uppercase;
 	margin: 20px 0;
 	padding: 10px;
-	background: #c5d1d4;
+	background: #d3e9f7; /*90%*/
+	border: 1px solid #a7d3ef; /*80%*/
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -404,23 +351,26 @@ h3 {
 	height: 100%;
 }
 
+.product-detail {
+	margin-top: 20px;
+}
+
 .product-detail i {
-	font-size: 150%;
-	width: 10%;
+	font-size: 200%;
 }
 
 .product-detail i,
 .product-detail p {
-	display: inline-block;
 	margin: 5px 0;
 }
 
 .product-detail i {
-	color: #e67e22;
+	color: #51a7e0; /*60%*/
 }
 
 .product-detail p {
 	color: rgba(0, 0, 0, 0.8);
+	margin-left: 15px;
 }
 
 .section-products .col {
@@ -458,6 +408,7 @@ h4 {
 	font-weight: 300;
 	text-transform: uppercase;
 	text-align: center;
+	line-height: 135%;
 }
 
 .section-form p {
@@ -485,7 +436,7 @@ h4 {
 	margin: 0 auto;
 }
 
-#phongnam-map {
+#phuhung-map {
 	height: 200px;
 	width: 100%;
 	margin: 0 auto;
@@ -503,7 +454,7 @@ h4 {
             FOOTER
 ****************************************/
 footer {
-	background: rgba(0, 0, 0, 0.8);
+	background: #51a7e0; /*60%*/
 	padding: 20px 0;
 }
 
@@ -612,7 +563,6 @@ footer {
 /*** Animite h3 - SECTION INTRO ***/
 .js-h3-section-intro {
 	position: relative;
-	opacity: 0;
 	transition: all 1.5s ease-in-out;
 	-webkit-transition: all 1.5s ease-in-out;
 	-moz-transition: all 1.5s ease-in-out;

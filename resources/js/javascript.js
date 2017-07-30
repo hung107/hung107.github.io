@@ -51,40 +51,40 @@ $(".modal").click(function() {
 
 
 // ADD SWING ANIMATE TO CALL US TEXT
-$(window).scroll(function() {
-	var hT = $(".js-call-us").offset().top;
-	var hH = $(".js-call-us").outerHeight();
-	var windowScrollTop = $(window).scrollTop() + 300;
-	if ( (windowScrollTop > hT) && (windowScrollTop < (hT + hH + 200)) ) {
-		$(".js-call-us").addClass("js-animate-call-us");
-	} else {
-		$(".js-call-us").removeClass("js-animate-call-us");
-	}
-});
+// $(window).scroll(function() {
+// 	var hT = $(".js-call-us").offset().top;
+// 	var hH = $(".js-call-us").outerHeight();
+// 	var windowScrollTop = $(window).scrollTop() + 300;
+// 	if ( (windowScrollTop > hT) && (windowScrollTop < (hT + hH + 200)) ) {
+// 		$(".js-call-us").addClass("js-animate-call-us");
+// 	} else {
+// 		$(".js-call-us").removeClass("js-animate-call-us");
+// 	}
+// });
 
 // ADD SCALE ANIMATE TO FIRST PARA OF SECTION INTRO
-$(window).scroll(function() {
-	var hT = $(".js-scale-text").offset().top;
-	var hH = $(".js-scale-text").outerHeight();
-	var windowScrollTop = $(window).scrollTop() + 300;
-	if ( (windowScrollTop > hT) && (windowScrollTop < (hT + hH + 100)) ) {
-		$(".js-scale-text").addClass("js-animate-section-intro");
-	} else {
-		$(".js-scale-text").removeClass("js-animate-section-intro");
-	}
-});
+// $(window).scroll(function() {
+// 	var hT = $(".js-scale-text").offset().top;
+// 	var hH = $(".js-scale-text").outerHeight();
+// 	var windowScrollTop = $(window).scrollTop() + 300;
+// 	if ( (windowScrollTop > hT) && (windowScrollTop < (hT + hH + 100)) ) {
+// 		$(".js-scale-text").addClass("js-animate-section-intro");
+// 	} else {
+// 		$(".js-scale-text").removeClass("js-animate-section-intro");
+// 	}
+// });
 
 // ADD SLIDEIN ANIMATE TO H3 OF SECTION INTRO
-$(window).scroll(function() {
-	var hT = $(".js-h3-section-intro").offset().top;
-	var hH = $(".js-h3-section-intro").outerHeight();
-	var windowScrollTop = $(window).scrollTop() + 500;
-	if ( (windowScrollTop > hT) && (windowScrollTop < (hT + hH + 500)) ) {
-		$(".js-h3-section-intro").addClass("js-animate-h3-section-intro");
-	} else {
-		$(".js-h3-section-intro").removeClass("js-animate-h3-section-intro");
-	}
-});
+// $(window).scroll(function() {
+// 	var hT = $(".js-h3-section-intro").offset().top;
+// 	var hH = $(".js-h3-section-intro").outerHeight();
+// 	var windowScrollTop = $(window).scrollTop() + 500;
+// 	if ( (windowScrollTop > hT) && (windowScrollTop < (hT + hH + 500)) ) {
+// 		$(".js-h3-section-intro").addClass("js-animate-h3-section-intro");
+// 	} else {
+// 		$(".js-h3-section-intro").removeClass("js-animate-h3-section-intro");
+// 	}
+// });
 
 // ADD ZOOMIN ANIMATE TO IMAGES IN SECTION PRODUCTS
 $(".js-img-section-products").hover(
@@ -112,22 +112,22 @@ $(window).scroll(function() {
 
 // ADD GOOGLE MAP TO WEBSITE
 function initMap() {
-  var PraosPhongNamLocation = {lat: 10.236198, lng: 106.431334};
-  var map = new google.maps.Map(document.getElementById('phongnam-map'), {
+  var PhuHungLocation = {lat: 10.231103, lng: 106.410177};
+  var map = new google.maps.Map(document.getElementById('phuhung-map'), {
     zoom: 13,
-    center: PraosPhongNamLocation
+    center: PhuHungLocation
   });
   var marker = new google.maps.Marker({
-    position: PraosPhongNamLocation,
+    position: PhuHungLocation,
     map: map
   });
 
   var infowindow = new google.maps.InfoWindow;
-  infowindow.setContent('<b>Than Gáo Dừa HƯNG NGUYÊN</b>');
+  infowindow.setContent('<b>phân dơi Hữu Lũng</b>');
 
   var marker = new google.maps.Marker({
     map: map, 
-    position: PraosPhongNamLocation
+    position: PhuHungLocation
   });
 
   marker.addListener('click', function() {
